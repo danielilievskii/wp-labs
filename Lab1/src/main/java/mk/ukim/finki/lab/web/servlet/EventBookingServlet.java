@@ -53,7 +53,7 @@ public class EventBookingServlet extends HttpServlet {
         EventBooking eventBooking = eventBookingService.placeBooking(
                 request.getParameter("eventBook"),
                 request.getServerName(),
-                request.getRemoteAddr(),
+                request.getLocalAddr(),
                 parseInt(request.getParameter("numTickets"))
                 );
 
