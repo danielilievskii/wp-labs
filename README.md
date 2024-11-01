@@ -1,1 +1,1 @@
-Repo with solved coding problems for the course Advanced Programming at FCSE
+Repo with solved coding problems for the course Web Programming at FCSE
